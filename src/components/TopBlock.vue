@@ -1,10 +1,10 @@
 <template>
   <div class="top-block-container">
     <div class="user-items-block container">
-      <div class="selected-user-item" v-for="item in selectedUserItems" :key="item.id">{{item.name}}</div>
+      <div class="selected-user-item" v-for="item in selectedUserItems" :key="item.id">{{ item.name }}</div>
     </div>
     <div class="selected-item-block container">
-      <div class="selected-user-item">{{selectedItem.name}}</div>
+      <div class="selected-user-item">{{ selectedItem.name }}</div>
     </div>
   </div>
 </template>

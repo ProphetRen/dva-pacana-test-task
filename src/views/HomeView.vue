@@ -9,6 +9,7 @@
 import BottomBlock from "@/components/BottomBlock";
 import TopBlock from "@/components/TopBlock";
 import {mapState} from "vuex";
+
 export default {
   name: 'HomeView',
   components: {BottomBlock, TopBlock},
@@ -25,7 +26,8 @@ export default {
   flex-direction: column;
   border: 2px solid black;
   gap: 10px;
-  >div {
+
+  > div {
     padding: 5px;
     border: 1px solid black;
   }
